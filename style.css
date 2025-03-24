@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first{
+    color: grey;
+    cursor: pointer;
+}
+
+.long{
+    background-image: url(assets/cons.jpg);
+    background-position: center;
+    
+    height: 450px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav-link:hover{
+    color: red !important;
+    /* font-weight: bold; */
+}
+.mar{
+    padding: 150px 150px;
+    
+}
+.b1{
+    color: black;
+    background-color: orange;
+    width: 100px;
+    height: 40px;
+    border: none;
+}
+.b1:hover{
+    color: white;
+}
+.text{
+    color: gray;
+}
+.part{
+    font-weight: bolder0;
+    font-size:x-large;
+}
+.work{
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-decoration:overline;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+}
+
+.work:hover{
+    color: orange;
+}
+.workk{
+    justify-content: center;
+    text-align: center;
+    color: gray;
+}
+.buttonl{
+    border: none;
+    background-color:orange;
+    color: white;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.buttonl:hover{
+    color: black;
+    background-color: yellow;
+}
+
+.pro{
+    margin-top: 15px;
+    /* justify-content: center;
+    text-align: center; */
+}
+
+.proo{
+    /* justify-content: center;
+    padding: 5px 50px; */
+}
+.task{
+    /* justify-content: center;
+    text-align: center; */
+}
+.pro:hover{
+    color: white !important;
+    cursor: pointer;
+}
+.proj{
+    /* text-align: center; */
+}
+.task:hover{
+    color: yellow !important;
+    cursor: pointer;
+    text-decoration: underline;
+}
+ .taskk{
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+ }
+
+.taskkk{
+    padding: 25px 50px !important;
+    cursor: pointer;
+}
+.projects{
+    background-color: #343a40;
+}
+.just{  
+    gap: 30px;
+}
